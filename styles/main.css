@@ -187,9 +187,21 @@
   transform: translateX(-50%);
 
 }
+
 .product-description__text {
   text-align: center;
   font-size: 24px;
   font-weight: 300;
   line-height: 170%;
+}
+
+.product-description__link {
+  font-size: 24px;
+  font-weight: 500;
+  color: #BB8B5D;
+  text-decoration: none;
+}
+
+.product-description__link:hover {
+  cursor: pointer;
 }
