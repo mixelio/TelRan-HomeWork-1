@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: "League Spartan", sans-serif;
+}
+
+.main {
+  padding-bottom: 142px;
+}
+
+.first-screen {
+  background-color: #F8F8F8;
+  padding: 104px 0 168px;
+  margin-bottom: 42px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first-screen__flex-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.first-screen__item {
+  flex: 1;
+  max-height: 720px;
+}
+
+.first-screen__addition-info {
+  display: block;
+  font-weight: lighter;
+  font-size: 24px;
+  margin-bottom: 48px;
+  color: #272727;
+}
+
+.first-screen__title {
+  margin-bottom: 42px;
+}
+
+.title {
+  font-weight: lighter;
+  font-size: 250px;
+}
+
+.first-screen__text {
+  font-weight: lighter;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+.first-screen__button-container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 82px;
+}
+
+.first-screen__button {
+  flex: 1 0 278px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #272727;
+  border: 1px solid #272727;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+
+  transition-duration: 300ms;
+}
+
+.first-screen__button:hover {
+  cursor: pointer;
+}
+
+.first-screen__button-container:hover .first-screen__button {
+  background-color: transparent;
+  color: #272727;
+
+}
+
+.first-screen__price {
+  flex: 1 0 143px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+
+  transition-duration: 300ms;
+}
+
+.first-screen__button-container:hover .first-screen__price {
+  background-color: #272727;
+  color: #fff;
+
+}
+
+.first-screen__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.popular__subtitle {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.popular__title {
+  font-size: 72px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 84px;
+}
+
+.popular__item {
+  width: 520px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.popular__image-container {
+  height: 630px;
+  width: 500px;
+  background-color: #F8F8F8;
+  padding: 100px 0 100px;
+  margin-bottom: 72px;
+}
+
+.popular__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.popular__model-name {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.popular__model-description {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 155%;
+}
+.product-description {
+  width: 520px;
+  margin: 0 auto;
+}
+.product-description__title {
+  position: relative;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 186%;
+  margin-bottom: 50px;
+}
+
+.product-description__title::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 180px;
+  height: 1px;
+  background-color: #272727;
+  transform: translateX(-50%);
+
+}
+.product-description__text {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 170%;
+}
